@@ -25,7 +25,7 @@ struct timeval iopretime;
 long ioprewn;
 int block_size;
 const static long MEMLIMIT=5*1024*1024;
-const static long IOWBS_LIMIT=5*1024*1024;
+const static long IOWBS_LIMIT=1*1024*1024;
 const static long SWITCH_TIME_INTERVAL=100*1;
 //-------------------------------------------------------------------------------------------------
 

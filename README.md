@@ -1,3 +1,4 @@
 # sandbox
-sandbox to limit mem+IO+CPU
-readme
+use LD_PREDLOAD sandbox to limit Mem+IO+CPU
+
+

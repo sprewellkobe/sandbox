@@ -1,1 +1,3 @@
-LD_PRELOAD=/data10/conglei/MySandbox/libkobehook.so ./hooktest
+#!/bin/bash
+MYPATH=`pwd`
+LD_PRELOAD=${MYPATH}/libkobehook.so ./hooktest
